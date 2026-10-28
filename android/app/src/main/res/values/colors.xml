@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sky tone from the top of assets/images/splash.png, so the native launch
+         screen hands over to the Flutter splash without a flash. -->
+    <color name="splash_background">#AED0F2</color>
+</resources>

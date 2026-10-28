@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "239632912730",
+    "project_id": "parnterapp-3aa60",
+    "storage_bucket": "parnterapp-3aa60.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239632912730:android:e6e2582fabbb0700a2e363",
+        "android_client_info": {
+          "package_name": "com.partnerapnaservice.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMJzrYQR9h3ezhLNPPJqYbgICPRWsmHf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

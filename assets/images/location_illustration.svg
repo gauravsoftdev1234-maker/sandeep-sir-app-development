@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" width="240" height="200" role="img" aria-label="A map with a location pin">
+  <defs>
+    <linearGradient id="pin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2E6BC6"/>
+      <stop offset="1" stop-color="#14356B"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF3FC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- map card -->
+  <rect x="18" y="38" width="204" height="132" rx="18" fill="url(#card)" stroke="#D9E3F5" stroke-width="2"/>
+
+  <!-- roads -->
+  <path d="M18 92 H222" stroke="#DCE5F4" stroke-width="7" stroke-linecap="round"/>
+  <path d="M18 134 H222" stroke="#DCE5F4" stroke-width="5" stroke-linecap="round"/>
+  <path d="M74 38 V170" stroke="#DCE5F4" stroke-width="6" stroke-linecap="round"/>
+  <path d="M168 38 V170" stroke="#DCE5F4" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- greens -->
+  <rect x="28" y="100" width="36" height="26" rx="7" fill="#E4F4EC"/>
+  <rect x="180" y="46" width="32" height="34" rx="8" fill="#E4F4EC"/>
+  <rect x="86" y="142" width="70" height="20" rx="7" fill="#EDF2FB"/>
+
+  <!-- blocks -->
+  <rect x="86" y="46" width="68" height="36" rx="8" fill="#E7EEFA"/>
+  <rect x="180" y="100" width="32" height="26" rx="7" fill="#E7EEFA"/>
+
+  <!-- accuracy halo -->
+  <circle cx="120" cy="104" r="46" fill="#1F55A8" fill-opacity="0.07"/>
+  <circle cx="120" cy="104" r="30" fill="#1F55A8" fill-opacity="0.10"/>
+
+  <!-- pin -->
+  <path d="M120 54c-17.1 0-31 13.6-31 30.4 0 22.1 27.4 47.6 28.6 48.7a3.6 3.6 0 0 0 4.8 0c1.2-1.1 28.6-26.6 28.6-48.7C151 67.6 137.1 54 120 54Z" fill="url(#pin)"/>
+  <circle cx="120" cy="84" r="11.5" fill="#FFFFFF"/>
+  <circle cx="120" cy="84" r="5.5" fill="#0E9F6E"/>
+
+  <!-- shadow under pin -->
+  <ellipse cx="120" cy="143" rx="16" ry="4.5" fill="#14356B" fill-opacity="0.14"/>
+</svg>
